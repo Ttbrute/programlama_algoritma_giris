@@ -1,0 +1,3 @@
+m=input("mesaj: "); print("\n ikili kodlama: ",end= '')
+for i in range (0,len(m)):
+    print("%s"%bin(ord(m[i]))[2:],end='')
